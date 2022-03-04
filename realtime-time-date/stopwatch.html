@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stop Watch Timer</h1>
+      <h2 id="time" class="text-center times">00 : 00</h2>
+      <button id="start" class="btn" onclick="startStopWatch()">Start</button>
+      <button id="stop" class="btn" onclick="stopStopWatch()">Stop</button>
+      <button id="reset" class="btn" onclick="resetStopWatch()">Reset</button>
+    </div>
+
+    <div class="container timer">
+      <h1>Timer</h1>
+      <h2 id="timer" class="text-center  times">05 : 00</h2>
+      <div class="timeIntervalDiv">
+        <h3>Select Time Interval</h3>
+        <button id="start" class="btn" onclick="setTime(5)">5 Minutes</button>
+        <button id="start" class="btn" onclick="setTime(15)">15 Minutes</button>
+        <button id="start" class="btn" onclick="setTime(30)">30 Minutes</button>
+      </div>
+      <button id="tStart" class="btn" onclick="startTimer()">Start</button>
+      <button id="stop" class="btn" onclick="stopTimer()">Stop</button>
+      <button id="reset" class="btn" onclick="resetTimer()">Reset</button>
+    </div>
+    <script src="stopwatch.js"></script>
+  </body>
+</html>

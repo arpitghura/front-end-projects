@@ -1,0 +1,66 @@
+.card {
+  margin: 0 1.2vw 1.5vw 0;
+  padding: 0;
+  max-width: min-content;
+  min-width: 150px;
+  overflow-y: scroll;
+  height: 200px;
+}
+.pointer{
+  cursor: pointer;
+}
+.img-top-side{
+  transform: rotate(90deg);
+  opacity: 0.7;
+}
+.dropdown{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.dropdown-menu{
+  min-width: 8rem;
+}
+.done-dropdown{
+  top: 25px;
+}
+.invert{
+  filter: invert(100%);
+}
+
+hr#doneLabel {
+  border: none;
+  color: black;
+  overflow: visible;
+  text-align: center;
+  height: 3px;
+  opacity: .70;
+}
+
+hr#doneLabel:after {
+  background: rgb(255, 255, 255);
+  content: 'Done Todos';
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+  top: -16px;
+}
+
+/* @media only screen and (max-width: 480px) {
+  .card {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 481px) {
+  .card {
+    width: 45vw !important;
+  }
+}
+
+@media only screen and (max-width: 996px) and (min-width: 576px) {
+  .card {
+    width: 27vw !important;
+  }
+} */

@@ -1,0 +1,42 @@
+body{
+    font-family: 'Karla', sans-serif;
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background: rgb(216,103,157);
+    background: linear-gradient(90deg, rgba(216,103,157,1) 0%, rgba(249,138,109,1) 100%);
+}
+.header{
+    margin: 25px;
+}
+.header img{
+    height: 75px;
+    border-radius: 45px;
+}
+.links div{
+    border: 2px solid white;
+    margin: 15px;
+    font-weight: 700;
+}
+.links div a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    display: block;
+    transition: .2s ease;
+}
+.links div a:hover{
+    background-color: white;
+    color:#DA699B;
+}
+.footer{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(71, 63, 63);
+}

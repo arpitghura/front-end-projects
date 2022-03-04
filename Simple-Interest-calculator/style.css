@@ -1,0 +1,33 @@
+body {
+    background-color:black;
+    font-family: arial;
+    color: white;
+    padding: 22vh 0;
+}
+h1{
+    color:grey;
+    font-family: verdana;
+    text-align: center;
+}
+.maindiv{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    margin: auto;
+    padding: 4vh;
+    width: 300px;
+    min-height: max-content;
+}
+.cyel{
+    background-color: yellow;
+    padding: 0 1px;
+}
+
+/* Add Media Queries for the breakpoint of width */
+@media screen and (max-width: 600px ) and (min-width: 320px) {
+    .maindiv{
+        width: 80%;
+        height: 80%;
+        padding: 10%;
+    }
+}

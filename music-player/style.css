@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    padding: 20vh 5vw 5vh 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#musicSrc{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.music-title-div, .music-author-div, .song-progress-div{
+    margin: 1vh 0;
+}
+#songTitle{
+    font-weight: bold;
+    font-size: large;
+}
+.music-controls-div{
+    margin-top: 5vh;
+}
+.icons{
+    border-radius: 151px;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 12px 15px;
+    margin: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
