@@ -178,8 +178,12 @@ nav .heading p{
         justify-content: center;
     }
 }
-@media only screen and (max-width:375px){
+@media only screen and (max-width:368px){
     nav .heading p{
-        margin-bottom: 20px;   
+        margin-right: 10px;
+        margin-bottom: 15px;   
+    }
+    .image img{
+        width: 80%;
     }
 }
