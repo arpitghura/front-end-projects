@@ -5,6 +5,7 @@
 > 2. CSS3
 > 3. Vanilla JavaScript
 > 4. Bootstrap (1 or 2 projects)
+> 5. Reactjs (1 project)
 
 ## Projects Included 
 
@@ -17,3 +18,4 @@
 7. Simple Interest Calculator
 8. YouTube Clone
 9. Restaurant Website
+10. Text Utils React App
