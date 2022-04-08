@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(228, 228, 228);
+}
+.heading{
+  background-color: white;
+  padding: 10px;
+  top:0;
+  position: sticky;
+  background-color: #ffc107;
+}
+.heading h1{
+  font-size:x-large;
+}
+.note{
+  border-radius: 10px;
+  min-width:200px;
+  min-height: max-content;
+  padding: 0;
+  margin: 10px 20px;
+  background:white;
+  height:25vh;
+  width:25vw;
+}
+.operation{
+  display:flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.operation .btn{
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 0.7em;
+  margin-left: 10px;
+  padding: 5px 10px;
+  transition: background .3s ease-in-out;
+}
+.operation #editBtn{
+  background-color: rgb(42, 173, 2);
+}
+.operation #deleteBtn{
+  background-color: rgb(197, 29, 29);
+}
+.operation #editBtn:hover{
+  color: rgb(42, 173, 2);
+  background-color: rgb(245, 244, 244);
+}
+.operation #deleteBtn:hover{
+  color: rgb(197, 29, 29);
+  background-color: rgb(245, 244, 244);
+}
+#notesContainer{
+  width:98vw;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main{
+  width: 97%;
+  height: 60%;
+  margin: 0 5px;
+  white-space:pre-line;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  width: 97%;
+  height: 60%;
+  margin: 0 5px;
+}
+.hidden{
+  display: none;
+}
