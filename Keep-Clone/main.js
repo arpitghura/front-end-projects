@@ -61,9 +61,11 @@ const addNewNote = (text = '') =>{
     deleteBtn.addEventListener("click",deleteNote);
     notesContainer.append(note);
 }
-const notes = JSON.parse(localStorage.getItem("notes"));
-notes.forEach((note)=>{
-    addNewNote(note);
-})
+if(localStorage.getItem("notes")){
+    const notes = JSON.parse(localStorage.getItem("notes"));
+    notes.forEach((note)=>{
+        addNewNote(note);
+    })
+}
 
 addBtn.addEventListener("click", () => addNewNote() );
